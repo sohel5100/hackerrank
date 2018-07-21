@@ -1,0 +1,14 @@
+if __name__ == '__main__':
+    list1=[]
+    list2=[]
+    n1 = int(input())
+    n2= int(input())
+    n3= int(input())
+    n = int(input())
+    for i in range(n1+1):
+        for j in range(n2+1):
+            for k in range(n3+1):
+                list1=[i,j,k]
+                if((i+j+k)!=n):
+                    list2.append(list1)
+    print(list2)
